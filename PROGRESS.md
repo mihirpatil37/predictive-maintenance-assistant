@@ -35,9 +35,9 @@ Task-based log: work is done in short blocks whenever time allows, so there is n
 - Verified in the shell: `print("Hello World")` returned `Hello World`.
 
 ### Block C: blink and measurements (in progress)
-- [ ] `firmware/blink.py` runs: LED blinks (onboard LED on GPIO 2, or external LED on GPIO 4)
-- [ ] 3V3 pin measured with multimeter: ___ V
-- [ ] 5V / VIN pin measured on USB power: ___ V
+- [x] `firmware/blink.py` runs: onboard LED on GPIO 2 blinks
+- [x] 3V3 pin measured with multimeter: 3.30 V
+- [x] 5V / VIN pin measured on USB power: 5.08 V
 
 ## Next up
 1. Finish Block C and record the real measurements above.
